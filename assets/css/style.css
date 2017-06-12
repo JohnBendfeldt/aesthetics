@@ -327,32 +327,40 @@ label {
 	top: 0;
 	width: 100%;
 	z-index:-1;
-	-webkit-animation: aesthetics 75s linear infinite;
-	-moz-animation: aesthetics 75s linear infinite;
-	-ms-animation: aesthetics 75s linear infinite;
-	animation: aesthetics 75s linear infinite;
+	-webkit-animation: aesthetics 120s linear infinite;
+	-moz-animation: aesthetics 120s linear infinite;
+	-ms-animation: aesthetics 120s linear infinite;
+	animation: aesthetics 120s linear infinite;
 }
-/* Aesthetics change position over 75 seconds. -JB */
+/* Aesthetics change position over 120 seconds. -JB */
 @keyframes aesthetics {
   0% {background-position: 0px 0px, 0px 0px;}
-  50% {background-position: -500px 500px, -200px -400px;}
-  100% {background-position: 500px 1000px, -600px 800px;}
+  25% {background-position: -500px 500px, -200px -400px;}
+  50% {background-position: 500px 1000px, -600px 800px;}
+  75% {background-position: 200px 500px, -200px 400px;}
+  100% {background-position: 0px 0px, 0px 0px;}
 }
 @-moz-keyframes aesthetics {
   0% {background-position: 0px 0px, 0px 0px;}
-  50% {background-position: -500px 500px, -200px -400px;}
-  100% {background-position: 500px 1000px, -600px 800px;}
+  25% {background-position: -500px 500px, -200px -400px;}
+  50% {background-position: 500px 1000px, -600px 800px;}
+  75% {background-position: 200px 500px, -200px 400px;}
+  100% {background-position: 0px 0px, 0px 0px;}
 }
 @-webkit-keyframes aesthetics {
   0% {background-position: 0px 0px, 0px 0px;}
-  50% {background-position: -500px 500px, -200px -400px;}
-  100% {background-position: 500px 1000px, -600px 800px;}
+  25% {background-position: -500px 500px, -200px -400px;}
+  50% {background-position: 500px 1000px, -600px 800px;}
+  75% {background-position: 200px 500px, -200px 400px;}
+  100% {background-position: 0px 0px, 0px 0px;}
 }
 @-ms-keyframes aesthetics {
   0% {background-position: 0px 0px, 0px 0px;}
-  50% {background-position: -500px 500px, -200px -400px;}
-  100% {background-position: 500px 1000px, -600px 800px;}
-}	
+  25% {background-position: -500px 500px, -200px -400px;}
+  50% {background-position: 500px 1000px, -600px 800px;}
+  75% {background-position: 200px 500px, -200px 400px;}
+  100% {background-position: 0px 0px, 0px 0px;}
+}
 
 
 /* Establishes behavior for smaller screens that are 980p or smaller */
