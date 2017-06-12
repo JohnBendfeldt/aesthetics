@@ -266,6 +266,18 @@ h4 {
 			1px 1px 0 #124B7A;
 }
 
+h5 {
+	background: none;
+	background-image: url(../images/bg.gif);
+	background-size: 100%;
+	color: #124B7A;
+	text-shadow:
+			-1px -1px 0 #91DBE2,  
+			1px -1px 0 #91DBE2,
+			-1px 1px 0 #91DBE2,
+			1px 1px 0 #91DBE2;
+	font-weight: bold;
+}
 /* Establishes sticky footer */
 footer {
 	background-color: #56B89C;
