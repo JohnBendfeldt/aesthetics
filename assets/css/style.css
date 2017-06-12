@@ -326,10 +326,10 @@ label {
 	top: 0;
 	width: 100%;
 	z-index:-1;
-	-webkit-animation: aesthetics 60s linear infinite;
-	-moz-animation: aesthetics 60s linear infinite;
-	-ms-animation: aesthetics 60s linear infinite;
-	animation: aesthetics 60s linear infinite;
+	-webkit-animation: aesthetics 75s linear infinite;
+	-moz-animation: aesthetics 75s linear infinite;
+	-ms-animation: aesthetics 75s linear infinite;
+	animation: aesthetics 75s linear infinite;
 }
 /* aesthetics change position over 30 seconds. -JB */
 @keyframes aesthetics {
