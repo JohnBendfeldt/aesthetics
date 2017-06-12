@@ -317,6 +317,7 @@ label {
 	color: #8F7E7F;
 }
 
+/* Establishes animation for backgroun aesthetics. They are two images that move around over the course of 75 seconds. */
 #aesthetics{
 	background: none;
 	background-image: url('../images/aesthetics2.png'), url('../images/aesthetics1.png');
@@ -331,7 +332,7 @@ label {
 	-ms-animation: aesthetics 75s linear infinite;
 	animation: aesthetics 75s linear infinite;
 }
-/* aesthetics change position over 30 seconds. -JB */
+/* Aesthetics change position over 75 seconds. -JB */
 @keyframes aesthetics {
   0% {background-position: 0px 0px, 0px 0px;}
   50% {background-position: -500px 500px, -200px -400px;}
@@ -393,7 +394,7 @@ label {
 	}
 }
 
-/* WHen the screen is smaller than 640p */
+/* When the screen is smaller than 640p */
 @media screen and (max-width: 640px) {
 	header {
 		position: static;
@@ -408,7 +409,7 @@ label {
 		width: 100%;
 		padding: 10px 0px !important;
 	}
-	/* changes the navbar to be helow the main heading */
+	/* Changes the navbar to be helow the main heading */
 	nav {
 		display: flex;
 		justify-content: space-around;
@@ -423,7 +424,7 @@ label {
 	.active {
 		padding: 0px;
 	}
-	/* changes size for my face on picture */
+	/* Changes size for my face on picture */
 	#face {
 		width: 100%;
 		display: inline;
