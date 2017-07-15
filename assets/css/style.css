@@ -38,13 +38,12 @@ h3 {
 }
 
 section {
-	background-color: #ffffff;
-	opacity: .9;
+	background-color: rgba(238, 238, 238, .75);
 }
 
 section:hover {
 	box-shadow: 3px 3px 10px #FFFFFF;
-	opacity: 1;
+	background-color: rgba(238, 238, 238, 1)
 }
 
 /*Establishes header on top */
